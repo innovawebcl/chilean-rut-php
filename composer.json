@@ -1,0 +1,42 @@
+{
+    "name": "innovaweb/chileanrut",
+    "description": "A Chilean Rut script to handle ruts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Isla",
+            "email": "aisla@innovaweb.cl",
+            "homepage": "https://github.com/willywes",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/innovawebcl/chilean-rut-php",
+    "keywords": ["Laravel", "ChileanRut", "Rut", "Rut Chileno", "Validar Rut", "Formatear Rut", "Calcular Rut"],
+    "require": {
+        "illuminate/support": "~5|~6|~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Innovaweb\\ChileanRut\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Innovaweb\\ChileanRut\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innovaweb\\ChileanRut\\ChileanRutServiceProvider"
+            ],
+            "aliases": {
+                "ChileanRut": "Innovaweb\\ChileanRut\\Facades\\ChileanRut"
+            }
+        }
+    }
+}
