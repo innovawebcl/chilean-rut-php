@@ -2,6 +2,10 @@
 
 All notable changes to `ChileanRut` will be documented in this file.
 
+## v1.2.1 - 2021-08-25
+### Fixed
+- README.md
+
 ## v1.2.0 - 2021-08-26
 ### Fixed
 - getNumber function bool params
