@@ -74,7 +74,7 @@ class Rut
      * @param bool $withDotted return rut with dots format, default true
      * @return string
      */
-    public static function getNumber(string $rut, bool $withDotted = true): string
+    public static function getNumber(string $rut, bool $withDotted = false): string
     {
         $rut = self::format($rut, false);
         if (!preg_match("/^[0-9]+-[0-9kK]{1}/", $rut)) {

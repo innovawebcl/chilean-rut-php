@@ -2,6 +2,14 @@
 
 All notable changes to `ChileanRut` will be documented in this file.
 
+## v1.2.0 - 2021-08-26
+### Fixed
+- getNumber function bool params
+
+## v1.1.0 - 2021-08-26
+### Fixed
+- validate function bool return
+
 ## v1.0.0 - 2021-08-25
 ### Added
 - format function
@@ -10,8 +18,3 @@ All notable changes to `ChileanRut` will be documented in this file.
 - calculateDv function
 - getNumber function
 - getDv function
-
-
-## v1.1.0 - 2021-08-26
-### Fixed
-- validate function bool return

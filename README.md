@@ -61,7 +61,7 @@ Calculates the check digit from a sequential rut number, return string value
 | $number | int | only the number of rut as integer type |
 
 ```php
-Rut::calculateDv('12312312'); // return 3
+Rut::calculateDv(12312312); // return 3
 ```
 
 ### Get Number Function
