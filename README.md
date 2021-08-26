@@ -2,8 +2,10 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+
+[comment]: <> ([![Build Status][ico-travis]][link-travis])
+
+[comment]: <> ([![StyleCI][ico-styleci]][link-styleci])
 
 A Chilean Rut script to handle ruts. Take a look at [contributing.md](contributing.md) to see a to do list.
 
@@ -139,9 +141,9 @@ Please see the [changelog](changelog.md) for more information on what has change
 $ composer test
 ```
 
-## Contributing
+[comment]: <> (## Contributing)
 
-Please see [contributing.md](contributing.md) for details and a todolist.
+[comment]: <> (Please see [contributing.md]&#40;contributing.md&#41; for details and a todolist.)
 
 ## Security
 
@@ -156,19 +158,19 @@ If you discover any security related issues, please email aisla@innovaweb.cl ins
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/innovawebcl/chileanrut.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/innovaweb/chileanrut.svg?style=flat-square
 
-[ico-downloads]: https://img.shields.io/packagist/dt/innovawebcl/chileanrut.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/innovaweb/chileanrut.svg?style=flat-square
 
-[ico-travis]: https://img.shields.io/travis/innovawebcl/chileanrut/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/innovaweb/chileanrut/master.svg?style=flat-square
 
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/innovawebcl/chileanrut
+[link-packagist]: https://packagist.org/packages/innovaweb/chileanrut
 
-[link-downloads]: https://packagist.org/packages/innovawebcl/chileanrut
+[link-downloads]: https://packagist.org/packages/innovaweb/chileanrut
 
-[link-travis]: https://travis-ci.org/innovawebcl/chileanrut
+[link-travis]: https://travis-ci.org/innovaweb/chileanrut
 
 [link-styleci]: https://styleci.io/repos/12345678
 
