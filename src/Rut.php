@@ -51,7 +51,7 @@ class Rut
             return false;
         }
         $rut = explode('-', $rut);
-        return (bool)strtolower($rut[1]) == self::calculateDv($rut[0]);
+        return strtolower($rut[1]) == self::calculateDv($rut[0]);
     }
 
     /**

@@ -10,3 +10,8 @@ All notable changes to `ChileanRut` will be documented in this file.
 - calculateDv function
 - getNumber function
 - getDv function
+
+
+## v1.1.0 - 2021-08-26
+### Fixed
+- validate function bool return
