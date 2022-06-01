@@ -1,6 +1,9 @@
 # Changelog
 
 All notable changes to `ChileanRut` will be documented in this file.
+## v1.4.1 - 2022-05-31
+### Fixed
+- validate function compare ruts end on 'k'
 
 ## v1.2.1 - 2021-08-25
 ### Fixed
