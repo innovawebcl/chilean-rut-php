@@ -1,6 +1,11 @@
 # Changelog
 
 All notable changes to `ChileanRut` will be documented in this file.
+
+## v1.5.0 - 2022-06-14
+### Added
+- Support to Iluminate 9 (Laravel, Lumen)
+
 ## v1.4.1 - 2022-05-31
 ### Fixed
 - validate function compare ruts end on 'k'
